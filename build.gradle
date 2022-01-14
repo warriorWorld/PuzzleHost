@@ -17,16 +17,6 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        mavenCentral()
-        flatDir {
-            dirs "${project(':unityLibrary').projectDir}/libs"
-        }
-    }
-}
 
 task clean(type: Delete) {
     delete rootProject.buildDir

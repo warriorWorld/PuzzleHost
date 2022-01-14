@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "PuzzleHost"
 include ':app'
+include ':unityLibrary'

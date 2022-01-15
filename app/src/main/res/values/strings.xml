@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">PuzzleHost</string>
+    <string name="app_name">拼图</string>
     <string name="game_view_content_description">Game view</string>
 </resources>

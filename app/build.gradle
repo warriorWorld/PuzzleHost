@@ -75,4 +75,5 @@ dependencies {
 
     implementation project(':unityLibrary')
     compileOnly fileTree(dir: project(':unityLibrary').getProjectDir().toString() + ('\\libs'), include: ['unity-classes.jar'])
+    implementation 'pub.devrel:easypermissions:0.4.2'
 }

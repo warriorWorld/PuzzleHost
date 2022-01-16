@@ -2,6 +2,7 @@ package com.harbinger.puzzlehost
 
 import android.Manifest
 import android.app.ProgressDialog
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -12,13 +13,9 @@ import android.widget.FrameLayout
 import android.widget.Toast
 import com.harbinger.puzzlehost.dialog.MangaEditDialog
 import com.harbinger.puzzlehost.dialog.OnEditResultListener
-import com.harbinger.puzzlehost.utils.FileSpider
-import com.harbinger.puzzlehost.utils.ShareKeys
-import com.harbinger.puzzlehost.utils.SharedPreferencesUtils
-import com.harbinger.puzzlehost.utils.VibratorUtil
+import com.harbinger.puzzlehost.utils.*
 import com.harbinger.puzzlelibrary.OverrideUnityActivity
 import com.unity3d.player.UnityPlayer
-import com.unity3d.player.UnityPlayerActivity
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
 import java.util.ArrayList
@@ -101,7 +98,7 @@ class MainActivity : OverrideUnityActivity(), EasyPermissions.PermissionCallback
     private fun showFilterDialog() {
         val dialog = MangaEditDialog(this)
         dialog.setOnEditResultListener(object : OnEditResultListener {
-            override fun onResult(text: String?,text1:String?) {
+            override fun onResult(text: String?, text1: String?) {
                 SharedPreferencesUtils.setSharedPreferencesData(
                     this@MainActivity,
                     ShareKeys.FILTER_KEY,

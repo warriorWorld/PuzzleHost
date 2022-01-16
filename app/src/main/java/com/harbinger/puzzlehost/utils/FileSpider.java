@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.text.TextUtils;
 import android.util.Log;
 
 import java.io.BufferedOutputStream;
@@ -29,6 +30,7 @@ import java.util.Collections;
  * http://www.mangareader.net/
  */
 public class FileSpider {
+    private final String TAG = "FileSpider";
     private String webUrl = "file://";
 
     private FileSpider() {
@@ -328,7 +330,7 @@ public class FileSpider {
             fis = new FileInputStream(file);
             size = fis.available();
         } else {
-            Log.d("spider","文件不存在!");
+            Log.d("spider", "文件不存在!");
         }
         return size;
     }
@@ -371,13 +373,18 @@ public class FileSpider {
         return fileSizeString;
     }
 
-    public ArrayList<String> getFilteredImages(Context context, String filter) {
-        return getFilteredImages(context, filter, 0);
+    public ArrayList<String> getFilteredImages(Context context, String filter, String block) {
+        return getFilteredImages(context, filter, block, 0);
     }
 
-    public ArrayList<String> getFilteredImages(Context context, String filter, int limit) {
+    public ArrayList<String> getFilteredImages(Context context, String filter, String block, int limit) {
         ArrayList<String> result = new ArrayList<>();
         String[] filters = filter.split(",");
+        String[] blocks=null;
+        if (!TextUtils.isEmpty(block)) {
+            //因为split即使字符串是空的他也会有一个空值在里边 所以这里故意让空字符串的数组为null方便判断
+            blocks = block.split(",");
+        }
         Cursor c = null;
         try {
             c = context.getContentResolver().query(MediaStore.Files.getContentUri("external"),
@@ -386,7 +393,7 @@ public class FileSpider {
 
             while (c.moveToNext()) {
                 String path = c.getString(dataindex);
-                if (isImg(path) && isContainsKeyWords(path, filters)) {
+                if (isImg(path) && isContainsKeyWords(path, filters)&&!isContainsKeyWords(path,blocks)) {
                     result.add(path);
                 }
                 if (limit != 0 && result.size() > limit) {
@@ -424,10 +431,13 @@ public class FileSpider {
 
     public boolean isContainsKeyWords(String text, String[] keys) {
         if (keys == null || keys.length == 0) {
+            Log.d(TAG, "keys are empty");
             return false;
         }
+        Log.d(TAG, "keys count:"+keys.length);
         text = text.toLowerCase();
         for (String key : keys) {
+            Log.d(TAG, "key:"+key);
             if (text.contains(key.toLowerCase())) {
                 return true;
             }

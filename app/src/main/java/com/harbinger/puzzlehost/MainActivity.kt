@@ -15,13 +15,15 @@ import com.harbinger.puzzlehost.dialog.OnEditResultListener
 import com.harbinger.puzzlehost.utils.FileSpider
 import com.harbinger.puzzlehost.utils.ShareKeys
 import com.harbinger.puzzlehost.utils.SharedPreferencesUtils
+import com.harbinger.puzzlehost.utils.VibratorUtil
+import com.harbinger.puzzlelibrary.OverrideUnityActivity
 import com.unity3d.player.UnityPlayer
 import com.unity3d.player.UnityPlayerActivity
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
 import java.util.ArrayList
 
-class MainActivity : UnityPlayerActivity() ,EasyPermissions.PermissionCallbacks {
+class MainActivity : OverrideUnityActivity(), EasyPermissions.PermissionCallbacks {
     private val TAG = "MainActivity"
     private var loadBar: ProgressDialog? = null
     private var pathList: ArrayList<String>? = ArrayList()
@@ -32,6 +34,10 @@ class MainActivity : UnityPlayerActivity() ,EasyPermissions.PermissionCallbacks 
         addControlsToUnityFrame()
         initProgressBar()
         doGetPaths()
+    }
+
+    override fun vibrate() {
+        VibratorUtil.Vibrate(this, 50)
     }
 
     private fun initProgressBar() {
@@ -49,7 +55,8 @@ class MainActivity : UnityPlayerActivity() ,EasyPermissions.PermissionCallbacks 
             Thread(Runnable {
                 pathList = FileSpider.getInstance().getFilteredImages(
                     this,
-                    SharedPreferencesUtils.getSharedPreferencesData(this, ShareKeys.FILTER_KEY)
+                    SharedPreferencesUtils.getSharedPreferencesData(this, ShareKeys.FILTER_KEY),
+                    SharedPreferencesUtils.getSharedPreferencesData(this, ShareKeys.BLOCK_KEY)
                 )
                 runOnUiThread(Runnable {
                     loadBar?.dismiss()
@@ -94,11 +101,16 @@ class MainActivity : UnityPlayerActivity() ,EasyPermissions.PermissionCallbacks 
     private fun showFilterDialog() {
         val dialog = MangaEditDialog(this)
         dialog.setOnEditResultListener(object : OnEditResultListener {
-            override fun onResult(text: String?) {
+            override fun onResult(text: String?,text1:String?) {
                 SharedPreferencesUtils.setSharedPreferencesData(
                     this@MainActivity,
                     ShareKeys.FILTER_KEY,
                     text
+                )
+                SharedPreferencesUtils.setSharedPreferencesData(
+                    this@MainActivity,
+                    ShareKeys.BLOCK_KEY,
+                    text1
                 )
             }
 
@@ -109,10 +121,16 @@ class MainActivity : UnityPlayerActivity() ,EasyPermissions.PermissionCallbacks 
         dialog.show()
         dialog.setTitle("筛选词设置")
         dialog.setHint("关键词以,分隔")
+        dialog.setHint1("屏蔽词以，分隔")
         val filterText: String =
             SharedPreferencesUtils.getSharedPreferencesData(this, ShareKeys.FILTER_KEY)
         if (!TextUtils.isEmpty(filterText)) {
             dialog.setEditText(filterText)
+        }
+        val blockText: String =
+            SharedPreferencesUtils.getSharedPreferencesData(this, ShareKeys.BLOCK_KEY)
+        if (!TextUtils.isEmpty(blockText)) {
+            dialog.setEditText1(blockText)
         }
     }
 
@@ -121,6 +139,6 @@ class MainActivity : UnityPlayerActivity() ,EasyPermissions.PermissionCallbacks 
     }
 
     override fun onPermissionsDenied(requestCode: Int, perms: MutableList<String>?) {
-        Toast.makeText(this,"......",Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "......", Toast.LENGTH_LONG).show()
     }
 }

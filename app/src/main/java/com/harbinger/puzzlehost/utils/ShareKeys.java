@@ -6,4 +6,5 @@ package com.harbinger.puzzlehost.utils;
 
 public class ShareKeys {
     public static final String FILTER_KEY = "filter_key";
+    public static final String BLOCK_KEY = "block_key";
 }

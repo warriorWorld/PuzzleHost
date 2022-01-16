@@ -4,7 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/drawable/btn_bg_empty_gray.xml" value="0.5487179487179488" />
+        <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/drawable/btn_click_c5.xml" value="0.5487179487179488" />
+        <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/drawable/rect_gray_c5.xml" value="0.5487179487179488" />
+        <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/drawable/rect_main_c5.xml" value="0.5487179487179488" />
+        <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/drawable/rect_main_shllow_c5.xml" value="0.5487179487179488" />
+        <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/drawable/rect_white_c5.xml" value="0.5487179487179488" />
         <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/layout/dialog_edit_manga.xml" value="0.2631712259371834" />
+        <entry key="..\:/unity_workspace/PuzzleHost/PuzzleHost/app/src/main/res/layout/dialog_normal.xml" value="0.2631712259371834" />
       </map>
     </option>
   </component>

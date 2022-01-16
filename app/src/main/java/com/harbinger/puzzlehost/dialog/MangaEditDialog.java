@@ -31,6 +31,7 @@ import com.harbinger.puzzlehost.R;
 public class MangaEditDialog extends Dialog implements View.OnClickListener {
     private Context context;
     private EditText editTextV;
+    private EditText editTextV1;
     private TextView titleTv;
     private ImageView crossIv;
     private TextView messageTv;
@@ -74,20 +75,7 @@ public class MangaEditDialog extends Dialog implements View.OnClickListener {
         crossIv = (ImageView) findViewById(R.id.cross_iv);
         messageTv = (TextView) findViewById(R.id.message_tv);
         editTextV = (EditText) findViewById(R.id.edit_et);
-        editTextV.setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                //因为DOWN和UP都算回车 所以这样写 避免调用两次
-                if (event.getAction() == KeyEvent.ACTION_DOWN) {
-                    switch (keyCode) {
-                        case KeyEvent.KEYCODE_ENTER:
-                            inputEnd();
-                            break;
-                    }
-                }
-                return false;
-            }
-        });
+        editTextV1 = (EditText) findViewById(R.id.edit_et1);
         okTv = (TextView) findViewById(R.id.ok_tv);
         cancelTv = (TextView) findViewById(R.id.cancel_tv);
 
@@ -138,16 +126,8 @@ public class MangaEditDialog extends Dialog implements View.OnClickListener {
         editTextV.setHint(message);
     }
 
-    public void setOnlyNumInput(boolean onlyNumInput) {
-        if (onlyNumInput) {
-            editTextV.setInputType(InputType.TYPE_CLASS_NUMBER);
-        } else {
-            editTextV.setInputType(InputType.TYPE_CLASS_TEXT);
-        }
-    }
-
-    public void setPasswordMode() {
-        editTextV.setTransformationMethod(PasswordTransformationMethod.getInstance());
+    public void setHint1(String message) {
+        editTextV1.setHint(message);
     }
 
     public void setOkText(String text) {
@@ -159,13 +139,14 @@ public class MangaEditDialog extends Dialog implements View.OnClickListener {
         cancelTv.setText(text);
     }
 
-    public void clearEdit() {
-        editTextV.setText("");
-    }
-
     public void setEditText(String text) {
         editTextV.setText(text);
         editTextV.setSelection(0, text.length());
+    }
+
+    public void setEditText1(String text) {
+        editTextV1.setText(text);
+        editTextV1.setSelection(0, text.length());
     }
 
     @Override
@@ -187,13 +168,13 @@ public class MangaEditDialog extends Dialog implements View.OnClickListener {
     }
 
     private void inputEnd() {
-        if (TextUtils.isEmpty(editTextV.getText().toString())) {
+        if (TextUtils.isEmpty(editTextV.getText().toString())&&TextUtils.isEmpty(editTextV1.getText().toString())) {
             Toast.makeText(context, "空的啊", Toast.LENGTH_SHORT).show();
             return;
         }
         dismiss();
         if (null != onEditResultListener) {
-            onEditResultListener.onResult(editTextV.getText().toString());
+            onEditResultListener.onResult(editTextV.getText().toString(),editTextV1.getText().toString());
         }
     }
 

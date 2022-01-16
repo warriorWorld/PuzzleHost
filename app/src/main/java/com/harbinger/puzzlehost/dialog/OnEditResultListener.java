@@ -5,6 +5,6 @@ package com.harbinger.puzzlehost.dialog;
  */
 
 public interface OnEditResultListener {
-    void onResult(String text);
+    void onResult(String text,String text1);
     void onCancelClick();
 }

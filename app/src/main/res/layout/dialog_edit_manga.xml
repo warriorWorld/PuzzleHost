@@ -59,6 +59,19 @@
         android:textColorHint="@color/main_text_color_gray"
         android:textSize="17sp" />
 
+    <EditText
+        android:id="@+id/edit_et1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/btn_bg_empty_gray"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="@color/main_text_color"
+        android:textColorHint="@color/main_text_color_gray"
+        android:textSize="17sp" />
 
     <View
         android:layout_width="match_parent"

@@ -37,6 +37,35 @@ class MainActivity : OverrideUnityActivity(), EasyPermissions.PermissionCallback
         VibratorUtil.Vibrate(this, 50)
     }
 
+    override fun loadNextImage() {
+        if (pathList == null || pathList!!.isEmpty() || index >= pathList!!.size) {
+            return
+        }
+        Log.d(TAG, "path${pathList?.get(index)}")
+        UnityPlayer.UnitySendMessage(
+            "PuzzleManager",
+            "nextAndroidImage",
+            pathList?.get(index)
+        )
+        index++
+    }
+
+    override fun camera() {
+        TODO("Not yet implemented")
+    }
+
+    override fun showLoading() {
+        runOnUiThread {
+            loadBar?.show()
+        }
+    }
+
+    override fun dismissLoading() {
+        runOnUiThread {
+            loadBar?.dismiss()
+        }
+    }
+
     private fun initProgressBar() {
         loadBar = ProgressDialog(this)
         loadBar!!.setCancelable(false)
@@ -75,17 +104,9 @@ class MainActivity : OverrideUnityActivity(), EasyPermissions.PermissionCallback
             myButton.setText("Start")
             myButton.setX(20f)
             myButton.setY(20f)
+            myButton.alpha = 0f
             myButton.setOnClickListener {
-                if (pathList == null || pathList!!.isEmpty() || index >= pathList!!.size) {
-                    return@setOnClickListener
-                }
-                Log.d(TAG, "path${pathList?.get(index)}")
-                UnityPlayer.UnitySendMessage(
-                    "PuzzleManager",
-                    "nextAndroidImage",
-                    pathList?.get(index)
-                )
-                index++
+                loadNextImage();
             }
             myButton.setOnLongClickListener {
                 showFilterDialog()

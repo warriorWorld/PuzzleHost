@@ -7,6 +7,14 @@ public abstract class OverrideUnityActivity extends UnityPlayerActivity {
 	  
     abstract protected void vibrate();
 	
+	abstract protected void loadNextImage();
+	
+	abstract protected void camera();
+	
+	abstract protected void showLoading();
+	
+	abstract protected void dismissLoading();
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -24,6 +25,15 @@
             </intent-filter>
         </activity>
         <service android:name=".service.CopyBoardService"></service>
+        <!-- 为调用相机拍照设置内容提供者 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.harbinger.puzzlehost.PhotoProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
-
 </manifest>

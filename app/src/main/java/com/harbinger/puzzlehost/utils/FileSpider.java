@@ -380,7 +380,7 @@ public class FileSpider {
     public ArrayList<String> getFilteredImages(Context context, String filter, String block, int limit) {
         ArrayList<String> result = new ArrayList<>();
         String[] filters = filter.split(",");
-        String[] blocks=null;
+        String[] blocks = null;
         if (!TextUtils.isEmpty(block)) {
             //因为split即使字符串是空的他也会有一个空值在里边 所以这里故意让空字符串的数组为null方便判断
             blocks = block.split(",");
@@ -393,7 +393,7 @@ public class FileSpider {
 
             while (c.moveToNext()) {
                 String path = c.getString(dataindex);
-                if (isImg(path) && isContainsKeyWords(path, filters)&&!isContainsKeyWords(path,blocks)) {
+                if (isImg(path) && isContainsKeyWords(path, filters) && !isContainsKeyWords(path, blocks)) {
                     result.add(path);
                 }
                 if (limit != 0 && result.size() > limit) {
@@ -429,15 +429,27 @@ public class FileSpider {
         return false;
     }
 
+    public static void saveBitmap(Bitmap b, String path) {
+        try {
+            FileOutputStream fout = new FileOutputStream(path);
+            BufferedOutputStream bos = new BufferedOutputStream(fout);
+            b.compress(Bitmap.CompressFormat.JPEG, 100, bos);
+            bos.flush();
+            bos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public boolean isContainsKeyWords(String text, String[] keys) {
         if (keys == null || keys.length == 0) {
             Log.d(TAG, "keys are empty");
             return false;
         }
-        Log.d(TAG, "keys count:"+keys.length);
+        Log.d(TAG, "keys count:" + keys.length);
         text = text.toLowerCase();
         for (String key : keys) {
-            Log.d(TAG, "key:"+key);
+            Log.d(TAG, "key:" + key);
             if (text.contains(key.toLowerCase())) {
                 return true;
             }

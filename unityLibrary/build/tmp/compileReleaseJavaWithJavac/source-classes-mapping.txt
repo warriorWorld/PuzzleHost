@@ -2,3 +2,5 @@ com/unity3d/player/BuildConfig.java
  com.unity3d.player.BuildConfig
 com/unity3d/player/UnityPlayerActivity.java
  com.unity3d.player.UnityPlayerActivity
+com/harbinger/puzzlelibrary/OverrideUnityActivity.java
+ com.harbinger.puzzlelibrary.OverrideUnityActivity

@@ -40,11 +40,12 @@ class MainActivity : OverrideUnityActivity(), EasyPermissions.PermissionCallback
     private var pathList: ArrayList<String>? = ArrayList()
     private var index = 0
     private var imageUri: Uri? = null
-    private val filePath: String =
-        Environment.getExternalStorageDirectory().toString() + File.separator + "output_image.jpg"
+    private var filePath: String?=null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        filePath = getExternalFilesDir(null)?.absolutePath + File.separator + "output_image.jpg"
+
         addControlsToUnityFrame()
         initProgressBar()
         doGetPaths()

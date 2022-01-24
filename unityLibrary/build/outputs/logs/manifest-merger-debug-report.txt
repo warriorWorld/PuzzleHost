@@ -1,119 +1,119 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:3:1-21:12
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:3:1-21:12
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:3:1-21:12
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:3:1-21:12
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:3:1-21:12
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:3:1-21:12
 	package
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:3:70-98
-		INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:3:70-98
+		INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:3:99-145
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:3:99-145
 	xmlns:android
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:3:11-69
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:3:11-69
 application
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:4:3-14:17
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:4:3-14:17
 activity#com.unity3d.player.UnityPlayerActivity
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:5-8:16
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:5-8:16
 	android:screenOrientation
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:111-149
 	android:launchMode
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:150-181
 	android:hardwareAccelerated
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:399-434
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:399-434
 	android:resizeableActivity
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:364-398
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:364-398
 	android:configChanges
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:182-363
 	android:theme
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:69-110
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:15-68
 meta-data#unityplayer.UnityActivity
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:6:7-82
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:6:7-82
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:6:59-79
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:6:59-79
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:6:18-58
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:6:18-58
 meta-data#android.notch_support
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:7:7-78
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:7:7-78
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:7:55-75
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:7:55-75
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:7:18-54
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:7:18-54
 meta-data#unity.splash-mode
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:9:5-69
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:9:49-66
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:9:16-48
 meta-data#unity.splash-enable
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:10:5-74
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:10:51-71
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:10:16-50
 meta-data#unity.allow-resizable-window
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:11:5-84
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:11:5-84
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:11:60-81
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:11:60-81
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:11:16-59
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:11:16-59
 meta-data#notch.config
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:12:5-81
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:12:5-81
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:12:44-78
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:12:44-78
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:12:16-43
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:12:16-43
 meta-data#unity.build-id
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:13:5-101
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:13:5-101
 	android:value
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:13:46-98
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:13:46-98
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:13:16-45
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:13:16-45
 uses-feature#0x00030000
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:15:3-52
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:15:3-52
 	android:glEsVersion
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:15:17-49
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:15:17-49
 uses-feature#android.hardware.vulkan.version
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:16:3-91
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:16:3-91
 	android:required
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:16:64-88
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:16:64-88
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:16:17-63
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:16:17-63
 uses-permission#android.permission.INTERNET
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:17:3-65
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:17:3-65
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:17:20-62
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:17:20-62
 uses-feature#android.hardware.touchscreen
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:18:3-88
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:18:3-88
 	android:required
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:18:61-85
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:18:61-85
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:18:17-60
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:18:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:19:3-99
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:19:3-99
 	android:required
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:19:72-96
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:19:72-96
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:19:17-71
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:19:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:20:3-108
+ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:20:3-108
 	android:required
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:20:81-105
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:20:81-105
 	android:name
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:20:17-80
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:20:17-80
 uses-sdk
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
-		INJECTED from F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
+		INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+		ADDED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
+		INJECTED from /Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml

@@ -6,105 +6,105 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
+8-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml
+9-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml
 10
 11    <uses-feature android:glEsVersion="0x00030000" />
-11-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:15:3-52
-11-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:15:17-49
+11-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:15:3-52
+11-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:15:17-49
 12    <uses-feature
-12-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:16:3-91
+12-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:16:3-91
 13        android:name="android.hardware.vulkan.version"
-13-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:16:17-63
+13-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:16:17-63
 14        android:required="false" />
-14-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:16:64-88
+14-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:16:64-88
 15
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:17:3-65
-16-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:17:20-62
+16-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:17:3-65
+16-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:17:20-62
 17
 18    <uses-feature
-18-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:18:3-88
+18-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:18:3-88
 19        android:name="android.hardware.touchscreen"
-19-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:18:17-60
+19-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:18:17-60
 20        android:required="false" />
-20-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:18:61-85
+20-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:18:61-85
 21    <uses-feature
-21-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:19:3-99
+21-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:19:3-99
 22        android:name="android.hardware.touchscreen.multitouch"
-22-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:19:17-71
+22-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:19:17-71
 23        android:required="false" />
-23-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:19:72-96
+23-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:19:72-96
 24    <uses-feature
-24-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:20:3-108
+24-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:20:3-108
 25        android:name="android.hardware.touchscreen.multitouch.distinct"
-25-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:20:17-80
+25-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:20:17-80
 26        android:required="false" />
-26-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:20:81-105
+26-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:20:81-105
 27
 28    <application>
-28-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:4:3-14:17
+28-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:4:3-14:17
 29        <activity
-29-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:5-8:16
+29-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:5-8:16
 30            android:name="com.unity3d.player.UnityPlayerActivity"
-30-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:15-68
+30-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:15-68
 31            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-31-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:182-363
+31-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:182-363
 32            android:hardwareAccelerated="false"
-32-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:399-434
+32-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:399-434
 33            android:launchMode="singleTask"
-33-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:150-181
+33-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:150-181
 34            android:resizeableActivity="false"
-34-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:364-398
+34-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:364-398
 35            android:screenOrientation="fullSensor"
-35-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:111-149
+35-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:111-149
 36            android:theme="@style/UnityThemeSelector" >
-36-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:5:69-110
+36-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:5:69-110
 37            <meta-data
-37-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:6:7-82
+37-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:6:7-82
 38                android:name="unityplayer.UnityActivity"
-38-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:6:18-58
+38-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:6:18-58
 39                android:value="true" />
-39-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:6:59-79
+39-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:6:59-79
 40            <meta-data
-40-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:7:7-78
+40-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:7:7-78
 41                android:name="android.notch_support"
-41-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:7:18-54
+41-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:7:18-54
 42                android:value="true" />
-42-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:7:55-75
+42-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:7:55-75
 43        </activity>
 44
 45        <meta-data
-45-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+45-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:9:5-69
 46            android:name="unity.splash-mode"
-46-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+46-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:9:16-48
 47            android:value="0" />
-47-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+47-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:9:49-66
 48        <meta-data
-48-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+48-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:10:5-74
 49            android:name="unity.splash-enable"
-49-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+49-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:10:16-50
 50            android:value="True" />
-50-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+50-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:10:51-71
 51        <meta-data
-51-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:11:5-84
+51-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:11:5-84
 52            android:name="unity.allow-resizable-window"
-52-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:11:16-59
+52-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:11:16-59
 53            android:value="False" />
-53-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:11:60-81
+53-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:11:60-81
 54        <meta-data
-54-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:12:5-81
+54-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:12:5-81
 55            android:name="notch.config"
-55-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:12:16-43
+55-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:12:16-43
 56            android:value="portrait|landscape" />
-56-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:12:44-78
+56-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:12:44-78
 57        <meta-data
-57-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:13:5-101
+57-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:13:5-101
 58            android:name="unity.build-id"
-58-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:13:16-45
+58-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:13:16-45
 59            android:value="f4b8d8c0-d9f7-47e9-95f8-f5f06b483fa3" />
-59-->F:\unity_workspace\PuzzleHost\PuzzleHost\unityLibrary\src\main\AndroidManifest.xml:13:46-98
+59-->/Users/roobo/Roobo/android_workspace/PuzzleHost/unityLibrary/src/main/AndroidManifest.xml:13:46-98
 60    </application>
 61
 62</manifest>
